@@ -127,6 +127,17 @@ a:not([href]):not([tabindex]):hover {
   display: none;
 }
 
+.testimonial-item .swiper-img{
+  width: 802px;
+  height: auto;
+}
+
+.touch-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -999,7 +1010,7 @@ button:focus {
    ========================================================================== */
 #testimonial {
   margin-bottom: 270px;
-  background: url(../img/bg/waterfall.png) no-repeat center center;
+  background: url(../img/bg.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1222,7 +1233,6 @@ button:focus {
    team section
    ========================================================================== */
 #team .single-team {
-  border: 1px solid #ddd;
   position: relative;
   -moz-transition: all 0.8s ease;
   -webkit-transition: all 0.8s ease;
@@ -1237,6 +1247,9 @@ button:focus {
   right: 0;
   text-align: center;
   top: -20px;
+}
+#team .single-team .team-social-icons ul.social-list{
+  margin-top: 20px;
 }
 #team .single-team .team-social-icons ul.social-list li {
   display: inline-block;
@@ -1284,6 +1297,7 @@ button:focus {
   font-weight: 600;
   display: block;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 #team .single-team .team-details p {
   font-size: 12px;
