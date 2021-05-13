@@ -608,7 +608,7 @@ button:focus {
 }
 .hero-area .contents p {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
 }
 .hero-area .contents .btn {
@@ -872,6 +872,14 @@ button:focus {
   -moz-transition: all 0.8s ease;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
+}
+
+#structure .structure {
+  width: 1310px;
+  height: 380px;
+  margin: 0 auto;
+  background: url(../img/structure.jpeg) no-repeat;
+  background-size: 100% 100%;
 }
 
 /* ==========================================================================
